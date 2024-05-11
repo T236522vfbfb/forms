@@ -1,7 +1,9 @@
-import { Tooltip } from "./tooltip";
+// TODO: write code here
 
-const container = document.querySelector(".container");
+import PlayingArea from './playing-area';
 
-const tooltip = new Tooltip(container);
+document.addEventListener('DOMContentLoaded', () => {
+  const playingArea = new PlayingArea();
 
-tooltip.bind();
+  setInterval(playingArea.randomMovingGoblin, 1000);
+})

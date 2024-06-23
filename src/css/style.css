@@ -8,7 +8,7 @@
     width: 100%;
     min-height: 100vh;
     background-color: #85b200;
-    background-image: url(../img/leaves.jpg);
+    /* background-image: url(../img/leaves.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

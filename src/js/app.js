@@ -1,9 +1,10 @@
 // TODO: write code here
 
-import PlayingArea from './playing-area';
+import PlayingArea from './PlayingArea';
 
 document.addEventListener('DOMContentLoaded', () => {
   const playingArea = new PlayingArea();
 
   setInterval(playingArea.randomMovingGoblin, 1000);
 })
+playing-area

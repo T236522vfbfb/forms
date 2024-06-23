@@ -7,4 +7,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setInterval(playingArea.randomMovingGoblin, 1000);
 })
-playing-area
